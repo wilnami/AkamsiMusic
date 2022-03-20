@@ -9,12 +9,12 @@ general_5 : "Lagi ngapain banh 🗿"
 general_6 : "Bot tidak sedang berada dalam voice chat"
 
 # Classes - Telegram.py
-tg_1 : "Bot is **overloaded** with downloads right now.\n\n**Try After:** {0} (__expected time__)"
+tg_1 : "Bot sedang **overloaded** dengan unduhan saat ini\n\n**Coba Lagi Setelah:** {0}"
 tg_2 : "Terjadi kesalahan saat mengunduh media dari telegram"
 
 # Core - Call.py
 call_1 : "Jadikan saya admin banh"
-call_2 : "Gimana mau ngeplay? Lu udah banned akun asistennya cok"
+call_2 : "Gimana mau ngeplay? Lu udah banned akun asistennya cug 🤌"
 call_3 : "Terjadi kesalahan saat mengundang asisten ke dalam chat\n\n**Karena**: {0}"
 call_4 : "Bot membutuhkan izin **Invite Users Via Link**/**Undang Pengguna Melalui Tautan** untuk mengundang asisten musik ke dalam grup"
 call_5 : "Asisten musik akan bergabung dalam 5 detik.."
@@ -84,7 +84,7 @@ start_7 : "**Blacklisted Chat**\n\nYou're chat has been blacklisted by the Bot. 
 
 # Help
 help_1 : "Click on the buttons below for more information. If you're facing any problem in command you can contact my bot owner or ask in support chat.\n\nAll commands can be used with: /"
-help_2 : "Contact me in PM for help."
+help_2 : "Chat pribadi aja sama botnya kak"
 
 # Settings
 setting_1 : "⚙️ **Pengaturan**\n\n🖇**Grup:** {0}\n🔖**Grup ID:** `{1}`\n\n💡**Pilih salah satu menu yang ingin anda edit/ubah**"
@@ -105,7 +105,7 @@ set_cb_1 : "Mendapatkan Panel Kualitas Lagu..."
 set_cb_2 : "Mendapatkan Panel Kualitas Video..."
 set_cb_3 : "Mendapatkan Panel Pengguna Khusus..."
 set_cb_4 : "Mendapatkan Panel Mode Pemutar..."
-set_cb_5 : "Mendapatkan Panel Mode Bersih..."
+set_cb_5 : "Mendapatkan Panel Clean Mode..."
 set_cb_6 : "Berhasil menyimpan pengaturan"
 set_cb_7 : "Mendapatkan List Auth User.. Tunggu sebentar"
 set_cb_8 : "Mendapatkan Kembali.."
@@ -144,10 +144,10 @@ cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with t
 #Play
 play_1 : "🔄 Tunggu ye asu"
 play_2 : "**🏷Channel Play Mode**\n\n🔄 Tunggu ye asu\n**Linked Channel:** {0}"
-play_3 : "Failed to Process Query!"
+play_3 : "Eh bentar2 tadi lagu apaan gua lupa"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
-play_5 : "Failed to process audio file.\n\nAudio File Size Should Be Less Than 100 mb"
-play_6 : "**Duration Limit Exceeded**\n\n**Allowed Duration: **{0} minute(s)\n**Received Duration:** {1} hour(s)"
+play_5 : "Cari yang lain aja kak, yang kurang dari 100mb"
+play_6 : "**Batas Durasi Terlampaui**\n\n**Durasi Diizinkan: **{0} minute(s)\n**Durasi Diterima:** {1} hour(s)"
 play_7 : "Sorry! Bot only allows limited number of video calls due to CPU overload issues. Many other chats are using video call right now. Try switching to audio or try again later"
 play_8 : "Not A Valid Video File Extension!\n\n**Supported Formats:** {0}"
 play_9 : "Video File Size Should Be Less Than 1 GiB"
@@ -155,39 +155,39 @@ play_10 : "**Youtube Playlist Feature**\n\nSelect the Mode in which you want to 
 play_11 : "📎Nama: **{0}\n\n⏳Durasi:** {1} Menit"
 play_12 : "**Memutar Mode Spotify**\n\nAtas Permintaan:- {0}"
 play_13 : "**Apple Playlist**\n\nAtas Permintaan:- {0}"
-play_14 : "**Unable to verify the URL.**\nBot wonders if this url belongs to any of the following platforms: Youtube, AppleMusic, Spotify, Resso and Soundcloud.\n\nYou can use /stream for M3u8 or Remote Links."
-play_15 : "**Siaran Langsung Terdeteksi**\n\nCoba dah lu tekan play ?"
+play_14 : "**Ini link apaan cug 🤌**\n\nNB: Akamsi hanya bisa memutar lagu dari daftar platform berikut ini: Youtube, AppleMusic, Spotify, Resso dan Soundcloud" # ini juga berbeda dari versi english
+play_15 : "**Siaran Langsung Terdeteksi**\n\nCoba dah lu tekan play"
 play_16 : "Cari lagu yang lain aja kak"
 play_17 : "Bot hanya bisa memutar tracks, albums, artists and playlists dari spotify"
 play_18 : "**Nyalain osnya dulu kak"
 
 
 #Playlist
-playlist_1 : "**Usage:** /play [Music Name or Youtube Link or Reply to Audio]\n\nIf you want to play Bot's Server Playlist! Press the button below."
+playlist_1 : "**Cara Penggunaan:** /play [Nama Lagu, Link Youtube atau Balas ke Pesan Berisikan Audio]\n\nKalau mau mutar playlist yang dari server, klik tombol dibawah ye"
 playlist_2 : "Mendapatkan playlist anda, tunggu sebentar"
-playlist_3 : "You have no playlist on Bot's Server."
+playlist_3 : "Lu kaga punya playlist cug 🤌"
 playlist_4 : "Playlist Ditemukan:\n\n"
 playlist_5 :  "    Durasi- {0} Menit"
-playlist_6 : "Contact me in PM for deletion of Playlists."
-playlist_7 : "Tracks Inside Playlist: {0}\n\nPress the Buttons to delete a particular track in your playlist.\n\nTo delete whole playlist: Press Del Whole Playlist button."
-playlist_8 : "Already Exists\n\nThis track exists in your playlist."
-playlist_9 : "Sorry! You can only have {0} music in a playlist."
+playlist_6 : "Hubungi @wilnami untuk menghapus playlist"
+playlist_7 : "Lagu Dalam Antrian Playlist: {0}\n\nPress the Buttons to delete a particular track in your playlist.\n\nTo delete whole playlist: Press Del Whole Playlist button."
+playlist_8 : "Lagu ini telah ada di dalam playlist lau"
+playlist_9 : "Lu cuma bisa nambahin {0} lagu di dalam playlist"
 playlist_10 : "Playlist Addition\n\n{0}\nadded to your playlist."
-playlist_11 : "Successfully deleted your track."
+playlist_11 : "Berhasil menghapus lagu"
 playlist_12 : "Gagal menghapus lagu"
 playlist_13 : "Menghapus seluruh playlist anda "
-playlist_14 : "**Are you Sure you want to delete your whole playlist?**\n\nYou'll lost your playlist and this can't be recovered later."
-playlist_15 : "[Checkout Whole Playlist]({0})"
-playlist_16 : "Queued Playlist:"
+playlist_14 : "**Apakah anda yakin ingin menghapus seluruh playlist?**"
+playlist_15 : "[Lihat Seluruh Playlist]({0})"
+playlist_16 : "Antrian Playlist:"
 playlist_17 : "Posisi Antrian-"
-playlist_18 : "[Checkout Whole Queued Playlist]({0})\n\nLast Queued Position : **{1}**"
+playlist_18 : "[Lihat Seluruh Antrian Playlist]({0})\n\nPosisi Antrian Terakhir: **{1}**"
 
 #Playmode
-playmode_1 : "Select the mode in which you want to play the queries inside your group[{0}]."
+playmode_1 : "Pilih mode yang kamu inginkan untuk memutar lagu[{0}]."
 playmode_2 : "Pengaturan berhasil disimpan atas perintah {0}"
 
 #Stream 
-str_1 : "Please Provide M3u8 Links or Index Links."
+str_1 : "**Please Provide M3u8 Links or Index Links**\n\nGua juga kaga tau ini apaan 🗿"
 str_2 : "✅ Valid Stream Verified\n\nPlease wait processing link.."
 str_3 : "Unable to stream youtube live streams. No Live Format Found"
 
@@ -229,7 +229,7 @@ queue_4 : "⏳ Ditambahkan ke Antrian **#{0}\n\n💡Nama:** {1}\n**⏱Durasi:** 
 queue_5 : "Hanya ada satu lagu di dalam antrian, tambah lagi kak kalau mau lihat list lagunya"
 
 # All Streaming Lines
-stream_1 : "📡 **Memulai Streaming** 💡\n\n👤 **Atas Permintaan:** {0}\n🔦 **Info Selengkapnya: **[Klik Disini]({1})"
+stream_1 : "📡 **Memulai Streaming** 💡\n\n👤 **Atas Permintaan:** {0}\n🔦 **Info Selengkapnya:** [Klik Disini]({1})"
 stream_2 : "📡 **Memulai Streaming via URL ** 💡\n\n👤**Atas Permintaan:** {0}"
 stream_3 : "📡 **Memulai Streaming** 💡\n\n**🏷Nama:** {0}\n⌛️**Durasi**: {1}\n👤**Atas Permintaan:** {2}"
 stream_4 : "📡 **Memulai Streaming** 💡\n\n**🏷Nama:** [{0}]({1})\n⌛️**Durasi**: {2}\n👤**Atas Permintaan:** {3}"
@@ -294,7 +294,7 @@ ST_B_3 : "🎩 Auth Users"
 ST_B_4 : "📱 Dashboard"
 ST_B_5 : "▶️ Play Mode"
 ST_B_6 : "🇮🇩 Bahasa"
-ST_B_7 : "🔄 Mode Bersih"
+ST_B_7 : "🔄 Clean Mode"
 ST_B_8 : "{0} Lagu Kualitas Rendah"
 ST_B_9 : "{0} Lagu Kualitas Sedang"
 ST_B_10 : "{0} Lagu Kualitas Tinggi"
@@ -447,26 +447,26 @@ sug_1 : "Kamu bisa memutar lagu dengan 2 opsi, Direct Mode (langsung mutar lagun
 sug_2 : "hadeh" # ini
 sug_3 : "Kamu bisa memutar lagu di channel dengan cara ketik /channelplay" # berbeda perintah dari versi bahasa inggris
 sug_4 : "hai" # ini juga
-sug_5 : "Kita punya fitur **Clean Mode** yang akan otomatis menghapus chat dari bot dalam waktu 5 menit. Atur cleanmode dengan cara ketik /settings" # ini juga berbeda
+sug_5 : "**Clean Mode** adalah fitur yang akan otomatis menghapus chat (dari bot ini) dalam waktu 5 menit. Atur cleanmode dengan cara ketik /settings lalu pilih 'Clean Mode" # ini juga berbeda
 sug_6 : "Kamu bisa memutar lagu dari Spotify dan Spotify Playlist\n\nDengan cara ketik /play [Link Spotify/Link Playlist]"
 sug_7 : "Kamu bisa memutar lagu dari Apple Music dan Apple Playlist\n\nDengan cara ketik /play [Link Apple Music/Link Playlist]"
 sug_8 : "Kamu bisa memutar lagu dari Resso Music dan Resso Playlist\n\nDengan cara ketik /play [Link Resso Music/Link Playlist]"
 sug_9 : "Kamu bisa memutar lagu dari SoundCloud dan SoundCloud Playlist\n\nDengan cara ketik /play [Link SoundCloud/Link Playlist]"
-sug_10 : "Kamu bisa memutar **Video** di os dengan cara ketik /vplay [Nama Video] atau /play -v [Nama Video]"
-sug_11 : "Kamu bisa mengubah **Kualitas Lagu** dengan cara ketik /settings"
-sug_12 : "Kamu bisa mengubah **Kualitas Video** dengan cara ketik /settings"
+sug_10 : "Kamu bisa memutar **Video** di os dengan cara ketik /vplay [Nama Video] atau bisa juga dengan cara ketik /play -v [Nama Video]"
+sug_11 : "Kamu bisa mengubah **Kualitas Lagu** dengan cara ketik /settings lalu pilih 'Kualitas Lagu'"
+sug_12 : "Kamu bisa mengubah **Kualitas Video** dengan cara ketik /settings lalu pilih 'Kualitas Video"
 sug_13 : "Kamu bisa melihat lagu yang paling sering diputar dengan cara ketik /gstats "
-sug_14 : "Kamu bisa melihat 10 lagu yang paling sering diputar dengan cara ketik /gstats "
+sug_14 : "Kamu bisa melihat 10 lagu yang paling sering diputar dengan cara ketik /gstats lalu pilih 'Statistik Top 10 Global' "
 sug_15 : "Kamu bisa melihat **Global Stats** seperti top 10 pengguna, top 10 chat dan top 10 lagu dengan cara ketik /gstats "
 sug_16 : "Kamu bisa mensenyapkan suara bot di os dengan cara ketik /mute\n\nUntuk membatalkan ketik /unmute" # ini juga berbeda
-sug_17 : "Kamu bisa mensenyapkan dan batal mensenyapkan bot dengan cara ketik /mute dan /unmute"
+sug_17 : "h" # ini juga
 sug_18 : "Kamu bisa mencari lirik dari sebuah lagu dengan cara ketik /lyrics [Judul Lagu]"
-sug_19 : "Kamu bisa mendownload lagu/video dengan cara ketik /song [Judul Lagu]"
+sug_19 : "Kamu bisa mendownload lagu dan juga video dengan cara ketik /song [Judul Lagu]"
 sug_20 : "Kamu bisa melihat seluruh perintah yang tersedia dengan cara ketik /help"
-sug_21 : "Kamu bisa menambahkan lagu kedalam playlist lalu memutarnya dengan cara ketik /playlist" # di versi bahasa inggris ketik /play
+sug_21 : "Kamu bisa menambahkan lagu kedalam playlist, lalu memutarnya dengan cara ketik /playlist" # di versi bahasa inggris ketik /play
 sug_22 : "Kamu bisa memutar lagu secara random dengan cara ketik /shuffle"
 sug_23 : "Kamu bisa melihat daftar antrian lagu saat ini dengan cara ketik /queue"
-sug_24 : "Kamu bisa melihat pemilik bot dan daftar pengguna yang telah diverifikasi dengan cara ketik /sudolist"
-sug_25 : "Kita punya fitur otomatis hapus command seperti /play, /skip, /end dan lain sebagainya\n\nAktifkan atau Nonaktifkan dengan cara ketik /settings" # ini juga
+sug_24 : "Kamu bisa melihat pemilik bot dan daftar pengguna yang telah dijadikan petinggi dengan cara ketik /sudolist"
+sug_25 : "Bot akan otomatis menghapus perintah seperti: /play, /skip, /end dan lain sebagainya\n\nAktifkan atau Nonaktifkan dengan cara ketik /settings lalu pilih 'Clean Mode'" # ini juga
 sug_26 : "Kamu bisa mengganti bahasa dengan cara ketik /language"
-sug_27 : "Kamu bisa langsung memutar lagu, walaupun masih ada lagu lain di os\n\nDengan cara ketik /playforce [Judul Lagu]"
+sug_27 : "Kamu bisa langsung memutar lagu ketika masih ada lagu lain di os\n\nDengan cara ketik /playforce [Judul Lagu]"
