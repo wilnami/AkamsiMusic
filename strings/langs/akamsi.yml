@@ -60,7 +60,7 @@ admin_21 : "Tidak ada antrian yang tersisa"
 admin_22 : "Failed to shuffle.\n\nCheck queue : /queue"
 admin_23 : "**Queue Shuffled by {0}**\n\nCheck shuffled queue : /queue"
 admin_24 : "**Cara Penggunaan:**\n/loop [enable/disable] atau [Angka di antara 1-10]\n\n**Contoh:** /loop 5 = mengulang lagu sebanyak 5 kali"
-admin_25 : "Memutar ulang lagu ini diaktifkan atas perintah {0} sejumlah **{1}** kali. Sekarang Akamsi akan mengulang lagu ini"
+admin_25 : "Memutar ulang **{1}** kali telah diaktifkan atas perintah {0}. Sakarang saia akan mengulang lagu ini :'v"
 admin_26 : "Gunakan angka antara 1-10"
 admin_27 : "Putar ulang telah dinonaktifkan"
 admin_28 : "**Usage:**\n/seek or /seekback [Duration in seconds]"
@@ -442,7 +442,7 @@ gban_10 : "No Gbanned Users Found."
 gban_11 : "Please wait a while.. Fetching Gbanned users list"
 
 #Suggestions
-sug_0 : "❓**Akamsi Tips 🏴‍☠️**\n\n✅ "
+sug_0 : "❓**Music Tips 🏴‍☠️**\n\n✅ "
 sug_1 : "Kamu bisa memutar lagu dengan 2 opsi, Direct Mode (langsung mutar lagunya) atau Inline Mode (bisa milih dulu)\n\n Atur opsi dengan cara ketik /playmode"
 sug_2 : "hadeh" # ini
 sug_3 : "Kamu bisa memutar lagu di channel dengan cara ketik /channelplay" # berbeda perintah dari versi bahasa inggris
